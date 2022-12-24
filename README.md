@@ -1,6 +1,6 @@
 # Lesson-03
 
-Условные конструкции: if...else,  switch, тернарный оператор [ ] ? [ ] : [ ].
+Условные конструкции: if,  if...else,  switch, ternary operator [ ] ? [ ] : [ ].
 
 Tehory:
 
