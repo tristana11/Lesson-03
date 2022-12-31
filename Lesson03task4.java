@@ -1,84 +1,94 @@
 public class Lesson03task4 {
     public static void main(String[] args) {
-        int hour = 33;
-        switch (hour) {
-            case 24:
-                System.out.printf("%d - доброй ночи.", hour);
-                break;
+        int numHourDay = 7;
+        System.out.printf("%d - ", numHourDay);
+        String day = "Добрый день";
+        String evening = "Добрый вечер";
+        String night = "Доброй ночи";
+        String morning = "Доброе утро";
+        /*textTimeDay(day);
+        textTimeDay(evening);
+        textTimeDay(night);
+        textTimeDay(morning);*/
+
+        switch (numHourDay) {
             case 0:
-                System.out.printf("%d - доброй ночи.", hour);
+                textTimesOfDay(night);
                 break;
             case 1:
-                System.out.printf("%d - доброй ночи.", hour);
+                textTimesOfDay(night);
                 break;
             case 2:
-                System.out.printf("%d - доброй ночи.", hour);
+                textTimesOfDay(night);
                 break;
             case 3:
-                System.out.printf("%d - доброй ночи.", hour);
+                textTimesOfDay(night);
                 break;
             case 4:
-                System.out.printf("%d - доброй ночи.", hour);
+                textTimesOfDay(night);
                 break;
             case 5:
-                System.out.printf("%d - доброй ночи.", hour);
+                textTimesOfDay(night);
                 break;
             case 6:
-                System.out.printf("%d - доброе утро.", hour);
+                textTimesOfDay(morning);
                 break;
             case 7:
-                System.out.printf("%d - доброе утро.", hour);
+                textTimesOfDay(morning);
                 break;
             case 8:
-                System.out.printf("%d - доброе утро.", hour);
+                textTimesOfDay(morning);
                 break;
             case 9:
-                System.out.printf("%d - доброе утро.", hour);
+                textTimesOfDay(morning);
                 break;
             case 10:
-                System.out.printf("%d - доброе утро.", hour);
+                textTimesOfDay(morning);
                 break;
             case 11:
-                System.out.printf("%d - доброе утро.", hour);
+                textTimesOfDay(morning);
                 break;
             case 12:
-                System.out.printf("%d - добрый день.", hour);
+                textTimesOfDay(day);
                 break;
             case 13:
-                System.out.printf("%d - добрый день.", hour);
+                textTimesOfDay(day);
                 break;
             case 14:
-                System.out.printf("%d - добрый день.", hour);
+                textTimesOfDay(day);
                 break;
             case 15:
-                System.out.printf("%d - добрый день.", hour);
+                textTimesOfDay(day);
                 break;
             case 16:
-                System.out.printf("%d - добрый день.", hour);
+                textTimesOfDay(day);
                 break;
             case 17:
-                System.out.printf("%d - добрый день.", hour);
+                textTimesOfDay(day);
                 break;
             case 18:
-                System.out.printf("%d - добрый вечер.", hour);
+                textTimesOfDay(evening);
                 break;
             case 19:
-                System.out.printf("%d - добрый вечер.", hour);
+                textTimesOfDay(evening);
                 break;
             case 20:
-                System.out.printf("%d - добрый вечер.", hour);
+                textTimesOfDay(evening);
                 break;
             case 21:
-                System.out.printf("%d - добрый вечер.", hour);
+                textTimesOfDay(evening);
                 break;
             case 22:
-                System.out.printf("%d - добрый вечер.", hour);
+                textTimesOfDay(evening);
                 break;
             case 23:
-                System.out.printf("%d - добрый вечер.", hour);
+                textTimesOfDay(evening);
                 break;
             default:
-                System.out.printf("%d - такого часа в сутках нет.", hour);
+                System.out.println("такого часа в сутках нет");
         }
+}
+    public static void textTimesOfDay(String word) {
+        System.out.println(word);
     }
 }
