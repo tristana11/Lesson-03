@@ -2,7 +2,7 @@
 
 Условные конструкции: if,  if...else,  switch, ternary operator [ ] ? [ ] : [ ].
 
-Tehory:
+Theory:
 
 https://wiki.rakovets.by/java/core/lang/conditional-constructions.html
 
